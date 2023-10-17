@@ -2,6 +2,7 @@ package com.example.mad_practical_9_21012012012
 
 import android.content.Intent
 import android.graphics.drawable.AnimationDrawable
+import android.graphics.drawable.Drawable
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.animation.Animation
@@ -12,7 +13,7 @@ import android.widget.ImageView
 class SplashActivity : AppCompatActivity(),Animation.AnimationListener {
     lateinit var logoimage:ImageView
     lateinit var logoanimation : Animation
-
+    lateinit var uvpceanimation : Drawable
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_splash)

@@ -6,10 +6,12 @@ import android.os.Bundle
 import android.widget.ImageView
 import com.example.mad_practical_9_21012021012.R
 
+
 class MainActivity : AppCompatActivity() {
 
     lateinit var alarmanimation : AnimationDrawable
     lateinit var heartanimation : AnimationDrawable
+    lateinit var uvpceanimation : AnimationDrawable
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -22,6 +24,10 @@ class MainActivity : AppCompatActivity() {
         val heart : ImageView = findViewById(R.id.heart)
         heart.setBackgroundResource(R.drawable.heart_animation_list)
         heartanimation = heart.background as AnimationDrawable
+
+        val logo : ImageView=findViewById(R.id.uvpce)
+        logo.setBackgroundResource(R.drawable.uvpce_logo_list)
+        uvpceanimation=logo.background as AnimationDrawable
     }
 
     override fun onWindowFocusChanged(hasFocus: Boolean) {
@@ -29,10 +35,15 @@ class MainActivity : AppCompatActivity() {
         if (hasFocus) {
             alarmanimation.start()
             heartanimation.start()
+            uvpceanimation.start()
+
         }
         else {
             alarmanimation.stop()
             heartanimation.stop()
+            uvpceanimation.stop()
         }
+
+
     }
 }
