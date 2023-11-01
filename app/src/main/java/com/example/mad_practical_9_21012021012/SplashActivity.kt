@@ -7,6 +7,7 @@ import android.os.Bundle
 import android.view.animation.Animation
 import android.view.animation.AnimationUtils
 import android.widget.ImageView
+import com.example.mad_practical_9_21012021012.R.MainActivity
 
 class SplashActivity : AppCompatActivity() {
     lateinit var logoanimation: AnimationDrawable
@@ -17,7 +18,7 @@ class SplashActivity : AppCompatActivity() {
 
         val logo: ImageView = findViewById(R.id.uvpce)
 
-        logo.setBackgroundResource(R.drawable.uvpce_animation_list)
+        logo.setBackgroundResource(R.drawable.uvpce_logo_list)
         logoanimation = logo.background as AnimationDrawable;
 
         val myAnimation = AnimationUtils.loadAnimation(this, R.anim.twin_animation)
