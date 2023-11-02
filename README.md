@@ -13,3 +13,9 @@ Twin animation: Twin animation usually refers to the simultaneous animation of t
 To achieve edge-to-edge content display in your Android app, set system UI flags to control the visibility of the status and navigation bars, use the android:fitsSystemWindows="true" attribute in your root layout to avoid content overlap, ensure your app's interactions are compatible with edge-to-edge gestures, account for display cutouts using the DisplayCutout API, utilize flexible layout managers like ConstraintLayout, test your app on different devices and orientations, and consider device-specific configuration and resources to optimize your UI for various screen sizes and resolutions. These steps help maximize screen real estate and create a seamless and immersive user experience across a range of Android devices.
 
 ## Output
+
+![image](https://github.com/jaydipchangani/MAD_Practical-9_21012021012/assets/98078979/7972fe11-ef4e-45bc-942c-6a4314968413)
+
+![image](https://github.com/jaydipchangani/MAD_Practical-9_21012021012/assets/98078979/4afeb33a-bddf-4ba5-829d-379b67fdac3b)
+
+![image](https://github.com/jaydipchangani/MAD_Practical-9_21012021012/assets/98078979/f6b6cd1f-fe2d-435b-98e7-29bf973087ad)
